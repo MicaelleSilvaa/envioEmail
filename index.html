@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Contato</h1>
+    <form action="https://formsubmit.co/conexaopecompaixao@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Digite seu nome" required>
+        <input type="email" name="email" placeholder="Digite seu email" required>
+        <textarea cols="30" rows="10" name="message" placeholder="Digite sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+        <input type="hidden" name="_subject" value="Novo contato!">
+        <input type="text" name="_honey" style="display: none">
+        <input type="hidden" name="_captcha" value="false">
+    </form>
+</body>
+</html>
